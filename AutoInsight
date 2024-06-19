@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoInsight - Model Car Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 1rem;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AutoInsight</h1>
+        <p>Your Gateway to Model Car Collections</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#collection">Collection</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>Welcome to AutoInsight! This is a channel dedicated to my model car collection. As a passionate collector, I’ve spent years curating a diverse and unique assortment of model cars from various eras and manufacturers. Each model has a story, and I’m excited to share them with you. Join me as I explore the intricate details, history, and craftsmanship of these miniature marvels. Whether you're a fellow collector or simply an enthusiast, there's something here for everyone to enjoy.</p>
+        </div>
+        <div id="collection" class="section">
+            <h2>Collection</h2>
+            <ul>
+                <li>Ferrari 250 GTO</li>
+                <li>Porsche 911 GT3 RS</li>
+                <li>Chevrolet Camaro Z28</li>
+                <li>Lamborghini Aventador SVJ</li>
+                <li>Ford Mustang Shelby GT500</li>
+                <!-- Add more models here -->
+            </ul>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you have any questions or would like to discuss model cars, feel free to reach out!</p>
+            <p>Email: autoinsight@example.com</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 AutoInsight. All rights reserved.</p>
+    </footer>
+</body>
+</html>
